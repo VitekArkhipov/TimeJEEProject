@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="time-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/time-ear/target/time-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="time-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/time-ear/target/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="time-ejb-1.0-SNAPSHOT.jar">
+        <element id="artifact" artifact-name="time-ejb:ejb exploded" />
+      </element>
+      <element id="archive" name="time-war-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="time-war:war exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="time-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/time-ejb/target/time-ejb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="time-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/time-ejb/target/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="time-ejb" />
+    </root>
+  </artifact>
+</component>
